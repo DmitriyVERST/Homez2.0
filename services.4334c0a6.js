@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e={slidesPerView:"auto",spaceBetween:16,pagination:{el:".swiper-pagination",clickable:!0}};document.querySelectorAll(".servicesSwiper").forEach(function(n){if(!n.swiper){var r=n.closest(".services-section"),i=r?r.querySelector(".services-section__nav"):null,t=i?i.querySelector(".services-section__arrow--next"):null,s=i?i.querySelector(".services-section__arrow--prev"):null;new Swiper(n,Object.assign({},e,{navigation:!!t&&!!s&&{nextEl:t,prevEl:s}}))}})});
+//# sourceMappingURL=services.4334c0a6.js.map
